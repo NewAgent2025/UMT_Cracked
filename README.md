@@ -51,7 +51,7 @@ Without this component, the application would display **errors during authentica
 
 ## Chunk Loading & Conversion Fix
 
-If the software is launched without modification:
+If the software is launched without modification USING the custom ui/overlay then the:
 
 * **Chunks will not load**
 * **World conversion will fail**
@@ -60,18 +60,18 @@ If the software is launched without modification:
 This happens because the original program depends on:
 
 `
-updateActivityLog.php
+Data from the official server or domain name is handled by updateActivityLog.php and timeCheck.php
 `
 
 which checks for the presence and validity of:
 
 `
-UMT_STREAM_ENDED
+UMT_STREAM_ENDED and its AES encryption/decryption mechanisms, along with block processing and several additional components that were added to the system.
 `
 
-### Solution Implemented
+### So It Was Decided
 
-To restore full functionality:
+To restore full functionality, an additional program or supporting software may be required. When using the UI overlay in this custom program, the following factors are taken into account:
 
 * A **compatibility layer** is added on top of the cracked software.
 * This secondary layer:
