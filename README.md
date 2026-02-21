@@ -28,7 +28,7 @@ This repository contains the required files and supporting components that allow
 
   * No session expiration warnings
   * No invalid session popups
-  * Smooth login flow without account verification
+  * When attempting to convert, edit, or use the program’s features, it would not load correctly and would crash.
 
 Without this component, the application would display **errors during authentication**.
 
@@ -38,7 +38,8 @@ Without this component, the application would display **errors during authentica
 
   * Data verification
   * Server-side reference checks
-* This file is **not strictly required** for functionality, but is included for completeness.
+  * This also contains the files, including images and other data for worlds players and tag editing images.
+  * This file is **not strictly required** for functionality, but is included for completeness.
 
 ### 4. Logout Handling
 
