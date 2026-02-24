@@ -72,7 +72,7 @@ UMT_STREAM_ENDED and its AES encryption/decryption mechanisms, along with block 
 
 ### So It Was Decided
 
-To restore full functionality, an additional program or supporting software may be required. When using the UI overlay in this custom program, the following factors are taken into account:
+To restore full functionality, so an additional program e.g software is required. When using the UI overlay in this custom program, the following factors are taken into account:
 
 * A **compatibility layer** is added on top of the cracked software.
 * This secondary layer:
