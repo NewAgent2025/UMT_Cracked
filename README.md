@@ -8,7 +8,10 @@ The original application is not free to use, and this project was created to pro
 This repository contains the required files and supporting components that allow the program to run without triggering license or account validation errors.
 
 ---
-
+<h3>Live Discord And GitHub Status</h3>
+<div class="container">
+  <div class="Live_Discord_Status"><img src="http://keeleanfamily.com/Discord_User_Status?Username=Blitz&Status=Disturb&GitUsername=NewAgent2025&Page=UMT_Cracked" alt="Discord Status And GitHub" /></div>
+</div>
 ## How It Works
 
 ### 1. Authentication Bypass
