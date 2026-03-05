@@ -14,7 +14,10 @@ This repository contains the required files and supporting components that allow
 </div>
 
 # Perview Of (UMT_Cracked)
-  <div class="UMT_Tool_Cracked_Showcase"><img src="UMT_Tool_Cracked_Showcase.svg" alt="UMT_Tool_Cracked_Showcase" />
+  <div class="UMT_Tool_Cracked_Showcase"><a href="https://newagent2025.github.io/NewAgentsSite/VideoPlayer.html?VideoURL=https://github.com/NewAgent2025/UMT_Cracked/raw/refs/heads/main/UMT_Tool_Cracked_Showcase.mp4" target="_blank">
+      <img width="1255" height="600" alt="UMT_Tool_Showcase" src="https://github.com/user-attachments/assets/fe9c2d17-8b8c-4104-9a6c-4baa61fcc194"
+           alt="Click to View Video"
+    </a>
 
 ## How It Works
 
