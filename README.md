@@ -13,6 +13,9 @@ This repository contains the required files and supporting components that allow
   <div class="Live_Discord_Status"><img src="http://keeleanfamily.com/Discord_User_Status?Username=Blitz&Status=Disturb&GitUsername=NewAgent2025&Page=UMT_Cracked" alt="Discord Status And GitHub" />
 </div>
 
+# Perview Of (UMT_Cracked)
+  <div class="UMT_Tool_Cracked_Showcase"><img src="UMT_Tool_Cracked_Showcase.svg" alt="UMT_Tool_Cracked_Showcase" />
+
 ## How It Works
 
 ### 1. Authentication Bypass
