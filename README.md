@@ -13,7 +13,7 @@ This repository contains the required files and supporting components that allow
   <div class="Live_Discord_Status"><img src="http://keeleanfamily.com/Discord_User_Status?Username=Blitz&Status=Disturb&GitUsername=NewAgent2025&Page=UMT_Cracked" alt="Discord Status And GitHub" />
 </div>
 
-# Perview Of (UMT_Cracked)
+# Preview Of (UMT_Cracked)
   <center><div class="UMT_Tool_Cracked_Showcase"><img src="UMT_Cracked_Showcase.svg" alt="UMT_Tool_Cracked_Showcase" /></div></center>
 
 ## How It Works
