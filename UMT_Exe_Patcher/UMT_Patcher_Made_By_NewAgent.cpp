@@ -123,13 +123,12 @@ int main()
 
     bool found = false;
 
-    for (size_t i = 0; i < data.size() - targetHex.size(); i++)
+    for (size_t i = 0; i <= data.size() - targetHex.size(); i++)
     {
         if (memcmp(&data[i], targetHex.data(), targetHex.size()) == 0)
         {
             memcpy(&data[i], url.c_str(), 38);
             found = true;
-            break;
         }
     }
 
