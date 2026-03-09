@@ -16,6 +16,9 @@ This repository contains the required files and supporting components that allow
 # Preview Of (UMT_Cracked)
   <center><div class="UMT_Tool_Cracked_Showcase"><img src="UMT_Cracked_Showcase.svg" alt="UMT_Tool_Cracked_Showcase" /></div></center>
 
+<h3>Creator Blocked Me</h3>
+<img width="1079" height="496" alt="UMT_Creator_Blocked_Me" src="https://github.com/user-attachments/assets/5f1aca4c-3ceb-4b6a-bff5-1e4e8207f0ca" />
+
 ## How It Works
 
 ### 1. Authentication Bypass
