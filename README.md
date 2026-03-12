@@ -128,3 +128,29 @@ This repository is provided for **educational and research purposes only**.
 * No ownership of the original software is claimed.
 * Users are responsible for how they use the contents of this repository.
 * Supporting the original developers by purchasing legitimate software is always recommended if you are able to do so.
+
+## Working Types
+
+| **World Conversion Type** |     **Version**      |  **Working** |
+|---------------------------|----------------------|--------------|
+| **Xbox 360 To Java**      | TU68-TU73 To 1.21.11 | ✔️          |
+| **Xbox 360 To Bedrock**   |   TU68-TU73 To 26.3  | ✔️          |
+| **PS3 To Java**           | TU63-TU73 1.21.11    | ✔️          |
+| **PS3 To Bedrock**        |   TU68-TU73 To 26.3  | ✔️          |
+| **Java To Bedrock**       |    1.21.11 To 26.3   | ✔️          |
+| **Bedrock To Java**       |    26.3 To 1.21.11   | ✔️          |
+| **Xbox One To Java**      |     26.3 To 1.21.11  | ❌ Not Yet  |
+| **Java To Xbox One**      |    1.21.11 To 26.3   | ❌ Not Yet  |
+
+| **World Chunk Locator**   |     **Version**      |  **Working** |
+|---------------------------|----------------------|--------------|
+| **Xbox 360**              |       TU0-TU73       | ⚠️ Partially |
+| **PS3**                   |       TU0-TU73       | ⚠️ Partially |
+| **Bedrock**               |         26.3         |  ❌ Not Yet  |
+| **Java**                  |       1.21.11        |  ❌ Not Yet  |
+| **Xbox One**              |         26.3         |  ❌ Not Yet  |
+
+| **Minecraft Map Editor**  |     **Version**      | **NBT COLORS** |
+|---------------------------|----------------------|--------------|
+| **NOT ADDED YET**         |  **NOT ADDED YET**   |   **NULL**   |
+| **CONSOLE/JAVA/BEDROCK**  |  **NOT ADDED YET**   |   **NULL**   |
