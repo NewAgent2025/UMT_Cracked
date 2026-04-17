@@ -104,7 +104,7 @@ From the application’s perspective, everything appears **fully legitimate and 
 **Important:**
 Do **not update** the program if it says there is an update, or the bypass will stop working.
 
-**I WILL FIX THIS IN A LATER UPDATE**
+**I WILL FIX THIS IN A LATER UPDATE.**
 
 ---
 
