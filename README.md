@@ -104,12 +104,23 @@ From the application’s perspective, everything appears **fully legitimate and 
 **Important:**
 Do **not update** the program if it says there is an update, or the bypass will stop working.
 
-**I WILL FIX THIS IN A LATER UPDATE.**
+**I WILL FIX THIS IN A LATER UPDATE**
 
 ---
 
+## Working Types For UMT_Cracked
+
+| World Conversion Type     | Version Requirement | Working        |
+|--------------------------|--------------------|----------------|
+| Xbox 360 → PS3           |   ONLY TU68–TU73   | ✔️             |
+| PS3 → Xbox 360           |   ONLY TU68–TU73   | ✔️             |
+| Wii U → Xbox 360         |   ONLY TU68–TU73   | ✔️             |
+| PS3 Decompile (Encrypted)|   ONLY TU68–TU73   | ❌ Not Supported |
+| Wii U → PS3              |   ONLY TU68–TU73   | ❌ Not Yet     |
+---
+
 <h3>Creator Blocked Me</h3>
-<img width="579" height="396" alt="UMT_Creator_Blocked_Me" src="https://github.com/user-attachments/assets/5f1aca4c-3ceb-4b6a-bff5-1e4e8207f0ca" />
+<img width="579" height="269" alt="UMT_Creator_Blocked_Me" src="https://github.com/user-attachments/assets/5f1aca4c-3ceb-4b6a-bff5-1e4e8207f0ca" />
 
 ## Purpose of This Project
 
