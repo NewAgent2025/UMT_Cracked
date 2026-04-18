@@ -1,5 +1,5 @@
 <?php
-// Show errors while testing (remove in production)
+// Show errors while testing (remove in production) 
 error_reporting(E_ALL);
 ini_set('display_errors', 1);
 $file = 'Sign_Out_Count.txt';
