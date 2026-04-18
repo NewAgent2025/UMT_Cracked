@@ -1,5 +1,5 @@
 <?php
-// Enable errors only during testing; remove in production
+// Enable errors only during testing; remove in production 
 error_reporting(E_ALL);
 ini_set('display_errors', 1);
 header("Content-Type: application/json");
