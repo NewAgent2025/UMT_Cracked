@@ -115,7 +115,7 @@ Do **not update** the program if it says there is an update, or the bypass will 
 | Xbox 360 → PS3           |   ONLY TU68–TU73   | ✔️             |
 | PS3 → Xbox 360           |   ONLY TU68–TU73   | ✔️             |
 | Wii U → Xbox 360         |   ONLY TU68–TU73   | ✔️             |
-| PS3 Decompile (Encrypted)|   ONLY TU68–TU73   | ❌ Not Supported |
+| (Encrypted) PS3 GAMEDATA |   ONLY TU68–TU73   | ❌ Not Supported |
 | Wii U → PS3              |   ONLY TU68–TU73   | ❌ Not Yet     |
 ---
 
