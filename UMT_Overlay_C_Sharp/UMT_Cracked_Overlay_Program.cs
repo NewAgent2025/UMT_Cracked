@@ -8,6 +8,7 @@ using System.Threading.Tasks;
 
 public class OverlayForm : Form
 {
+    // Program Made By NewAgent
     // --- WinAPI ---
     [DllImport("user32.dll")] static extern bool PostMessage(IntPtr hWnd, uint Msg, IntPtr wParam, IntPtr lParam);
     [DllImport("user32.dll")] static extern bool GetWindowRect(IntPtr hwnd, out RECT rect);
