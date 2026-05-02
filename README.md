@@ -117,6 +117,12 @@ Do **not update** the program if it says there is an update, or the bypass will 
 | Wii U → Xbox 360         |   ONLY TU68–TU73   | ✔️             |
 | (Encrypted) PS3 GAMEDATA |   ONLY TU68–TU73   | ❌ Not Supported |
 | Wii U → PS3              |   ONLY TU68–TU73   | ❌ Not Yet     |
+| Xbox 360 → JAVA          |   ONLY TU68–TU73   | ✔️             |
+| PS3 → JAVA               |   ONLY TU68–TU73   | ✔️             |
+| Wii U → JAVA             |   ONLY TU68–TU73   | ✔️             |
+| JAVA → Xbox 360          |   ONLY TU68–TU73   | ⚠️ UNABLE TO SAVE |
+| JAVA → PS3               |   ONLY TU68–TU73   | ❌ Not Yet     |
+| JAVA → Wii U             |   ONLY TU68–TU73   | ❌ Not Yet     |
 ---
 
 <h3>Creator Blocked Me</h3>
