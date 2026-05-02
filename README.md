@@ -125,6 +125,30 @@ Do **not update** the program if it says there is an update, or the bypass will 
 | JAVA → Wii U             |   ONLY TU68–TU73   | ❌ Not Yet     |
 ---
 
+### Possible Sources & Confirmed Components Used in UMT
+
+**Chunker (Likely Used)**  
+Tool for upgrading/downgrading Minecraft worlds and converting between editions.  
+- Java: 1.21.11 → 1.8.8  
+- Bedrock: 1.21.130 → 1.12.1.1  
+- Supports Java ↔ Bedrock + Bedrock downgrading and upgrading
+
+> No official proof Mat used Chunker, but it would make sense instead of rebuilding these systems repeatedly.
+
+**leveldb-mcpe-latest-build (Confirmed)**  
+- [leveldb-mcpe-latest-build](https://github.com/Amulet-Team/leveldb-mcpe)
+- Used for handling Bedrock world data (LevelDB format)  
+- Confirmed via UMT source code
+<img width="677" height="46" alt="image" src="https://github.com/user-attachments/assets/d1754c13-770a-46f4-aca0-14a88dd266e6" />
+
+**XMemcompress (Confirmed)**
+- [XMemcompress](https://github.com/gibbed/XCompression)
+- Used For Compiling And Decompiling Xbox 360 Files
+<img width="248" height="42" alt="image" src="https://github.com/user-attachments/assets/56b9e9e2-31b5-45e5-9c78-0ff2ef75f886" />
+<img width="241" height="67" alt="image" src="https://github.com/user-attachments/assets/6768aacf-811d-4ed8-a78e-470ef6e89b57" />
+<img width="506" height="217" alt="image" src="https://github.com/user-attachments/assets/95549d4e-1747-4b4f-9177-d44698831bda" />
+
+
 <h3>Creator Blocked Me</h3>
 <img width="579" height="269" alt="UMT_Creator_Blocked_Me" src="https://github.com/user-attachments/assets/5f1aca4c-3ceb-4b6a-bff5-1e4e8207f0ca" />
 
