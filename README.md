@@ -120,7 +120,7 @@ Do **not update** the program if it says there is an update, or the bypass will 
 | Xbox 360 → JAVA          |   ONLY TU68–TU73   | ✔️             |
 | PS3 → JAVA               |   ONLY TU68–TU73   | ✔️             |
 | Wii U → JAVA             |   ONLY TU68–TU73   | ✔️             |
-| JAVA → Xbox 360          |   ONLY TU68–TU73   | ⚠️ UNABLE TO SAVE |
+| JAVA → Xbox 360          |   ONLY TU68–TU73   | ✔️             |
 | JAVA → PS3               |   ONLY TU68–TU73   | ❌ Not Yet     |
 | JAVA → Wii U             |   ONLY TU68–TU73   | ❌ Not Yet     |
 ---
