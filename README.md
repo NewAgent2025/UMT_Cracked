@@ -128,16 +128,17 @@ Do **not update** the program if it says there is an update, or the bypass will 
 
 ### Possible Sources & Confirmed Components Used in UMT
 
-**Chunker (Likely Used)**  
+**Chunker (Likely Used)**
 Tool for upgrading/downgrading Minecraft worlds and converting between editions.  
 - Java: 1.21.11 → 1.8.8  
 - Bedrock: 1.21.130 → 1.12.1.1  
 - Supports Java ↔ Bedrock + Bedrock downgrading and upgrading
+- [Chunker Open Source](https://github.com/HiveGamesOSS/Chunker)
 
 > No official proof Mat used Chunker, but it would make sense instead of rebuilding these systems repeatedly.
 
 **leveldb-mcpe-latest-build (Confirmed)**  
-- [leveldb-mcpe-latest-build](https://github.com/Amulet-Team/leveldb-mcpe)
+- [Leveldb-MCPE-Latest-Build](https://github.com/Amulet-Team/leveldb-mcpe)
 - Used for handling Bedrock world data (LevelDB format)  
 - Confirmed via UMT source code
 <img width="677" height="46" alt="image" src="https://github.com/user-attachments/assets/d1754c13-770a-46f4-aca0-14a88dd266e6" />
