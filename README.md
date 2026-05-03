@@ -112,17 +112,18 @@ Do **not update** the program if it says there is an update, or the bypass will 
 
 | World Conversion Type     | Version Requirement | Working        |
 |--------------------------|--------------------|----------------|
-| Xbox 360 → PS3           |   ONLY TU68–TU73   | ✔️             |
-| PS3 → Xbox 360           |   ONLY TU68–TU73   | ✔️             |
-| Wii U → Xbox 360         |   ONLY TU68–TU73   | ✔️             |
-| (Encrypted) PS3 GAMEDATA |   ONLY TU68–TU73   | ❌ Not Supported |
-| Wii U → PS3              |   ONLY TU68–TU73   | ❌ Not Yet     |
-| Xbox 360 → JAVA          |   ONLY TU68–TU73   | ✔️             |
-| PS3 → JAVA               |   ONLY TU68–TU73   | ✔️             |
-| Wii U → JAVA             |   ONLY TU68–TU73   | ✔️             |
-| JAVA → Xbox 360          |   ONLY TU68–TU73   | ✔️             |
-| JAVA → PS3               |   ONLY TU68–TU73   | ❌ Not Yet     |
-| JAVA → Wii U             |   ONLY TU68–TU73   | ❌ Not Yet     |
+| Xbox 360 → PS3           |  TU1 To TU68–TU73  | ❌ Not Yet     |
+| PS3 → Xbox 360           |  TU1 To TU68–TU73  | ✔️             |
+| Wii U → Xbox 360         |  TU1 To TU68–TU73  | ✔️             |
+| (Encrypted) PS3 GAMEDATA |  ❌ Not Supported  | ❌ Not Supported |
+| Wii U → PS3              |  TU1 To TU68–TU73  | ❌ Not Yet     |
+| PS3 → Wii U              |  TU1 To TU68–TU73  | ❌ Not Yet     |
+| Xbox 360 → JAVA          | TU1 To Any Version | ✔️             |
+| PS3 → JAVA               | TU1 To Any Version | ✔️             |
+| Wii U → JAVA             | TU1 To Any Version | ✔️             |
+| JAVA → Xbox 360          | PC Java To TU1-TU73 | ✔️             |
+| JAVA → PS3               | PC Java To TU1-TU73 | ✔️             |
+| JAVA → Wii U             | PC Java To TU1-TU73 | ✔️             |
 ---
 
 ### Possible Sources & Confirmed Components Used in UMT
