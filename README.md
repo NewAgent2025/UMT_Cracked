@@ -99,29 +99,24 @@ From the application’s perspective, everything appears **fully legitimate and 
 
 ## Version Handling
 
-* The `version.php` file is **not technically required**.
+* The `version.php` file is **required for any future UMT_Cracked fixes**.
 * It only exists so the software:
 
   * Reports the expected version number
   * Avoids update or mismatch warnings
-
-**Important:**
-Do **not update** the program if it says there is an update, or the bypass will stop working.
-
-**I WILL FIX THIS IN A LATER UPDATE**
-
 ---
 
 ## Working Types For UMT_Cracked
 
 | World Conversion Type     | Version Requirement | Working        |
 |--------------------------|--------------------|----------------|
-| Xbox 360 → PS3           |  TU1 To TU68–TU73  | ❌ Not Yet     |
+| Xbox 360 → PS3           |  TU1 To TU68–TU73  | ✔️             |
+| Xbox 360 → Wii U         |  TU1 To TU68–TU73  | ✔️             |
 | PS3 → Xbox 360           |  TU1 To TU68–TU73  | ✔️             |
 | Wii U → Xbox 360         |  TU1 To TU68–TU73  | ✔️             |
 | (Encrypted) PS3 GAMEDATA |  ❌ Not Supported  | ❌ Not Supported |
-| Wii U → PS3              |  TU1 To TU68–TU73  | ❌ Not Yet     |
-| PS3 → Wii U              |  TU1 To TU68–TU73  | ❌ Not Yet     |
+| Wii U → PS3              |  TU1 To TU68–TU73  | ✔️             |
+| PS3 → Wii U              |  TU1 To TU68–TU73  | ✔️             |
 | Xbox 360 → JAVA          | TU1 To Any Version | ✔️             |
 | PS3 → JAVA               | TU1 To Any Version | ✔️             |
 | Wii U → JAVA             | TU1 To Any Version | ✔️             |
