@@ -128,6 +128,7 @@ Do **not update** the program if it says there is an update, or the bypass will 
 | JAVA → Xbox 360          | PC Java To TU1-TU73 | ✔️             |
 | JAVA → PS3               | PC Java To TU1-TU73 | ✔️             |
 | JAVA → Wii U             | PC Java To TU1-TU73 | ✔️             |
+> Take Note Any World From TU15 To TU17 Might Delete Blocks Mods Items Sign Text And Other Things So To Insure The World Is 100% Correct Update It To TU68-TU73
 ---
 
 ### Possible Sources & Confirmed Components Used in UMT
