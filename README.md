@@ -123,10 +123,103 @@ From the application’s perspective, everything appears **fully legitimate and 
 | JAVA → Xbox 360          | PC Java To TU1-TU73 | ✔️             |
 | JAVA → PS3               | PC Java To TU1-TU73 | ✔️             |
 | JAVA → Wii U             | PC Java To TU1-TU73 | ✔️             |
-> Take Note Any World From TU15 To TU17 Might Delete Blocks Mods Items Sign Text And Other Things So To Insure The World Is 100% Correct Update It To TU68-TU73
+> ⚠️TAKE NOTE: Mob spawners are removed during conversion to prevent save failures and potential world crashes.
+
+> Converting from Java to console may currently result in the loss of mobs, blocks, items, and other data. This is a known limitation and will be addressed in a future update.
+
+>In comparison, the official UMT software removes mobs and some items during both console to console and Java to console conversions, while my version preserves this data for console to console worlds.
+
+<details><summary>Click Here To See What Items UMT Changes</summary>
+<strong>None For TU73</strong>
+
+<strong>UMT Replaces TU68</strong>
+  
+- minecraft:dark_oak_stairs To minecraft:jungle_stairs Aka id:163
+
+<strong>UMT Removes TU68</strong>
+- minecraft:prismarine_slab 0
+- minecraft:prismarine_slab 1
+- minecraft:prismarine_slab 2
+- minecraft:prismarine_bricks_stairs 2
+- minecraft:dark_prismarine_stairs 2
+- minecraft:prismarine_stairs 2
+- minecraft:blue_ice 0
+- minecraft:spruce_trapdoor 0
+- minecraft:birch_trapdoor 0
+- minecraft:jungle_trapdoor 0
+- minecraft:acacia_trapdoor 0
+- minecraft:dark_oak_trapdoor 0
+- minecraft:sandstone 2
+- minecraft:dried_kelp_block 0
+- minecraft:leaves2 8
+- minecraft:leaves2 9
+- minecraft:tallgrass 0
+- minecraft:stripped_log_oak 0
+- minecraft:stripped_log_spruce 0
+- minecraft:stripped_log_birch 0
+- minecraft:stripped_log_jungle 0
+- minecraft:stripped_log_acacia 0
+- minecraft:stripped_log_dark_oak 0
+- minecraft:turtle_egg 0
+- minecraft:coral_block 0
+- minecraft:coral_block 1
+- minecraft:coral_block 2
+- minecraft:coral_block 3
+- minecraft:coral_block 4
+- minecraft:coral_block 5
+- minecraft:coral_block 6
+- minecraft:coral_block 7
+- minecraft:coral_block 8
+- minecraft:coral_block 9
+- minecraft:coral_block 10
+- minecraft:coral_block 11
+- minecraft:coral_block 12
+- minecraft:coral_fan_dead 0
+- minecraft:coral_fan_dead 1
+- minecraft:coral_fan_dead 2
+- minecraft:coral_fan_dead 3
+- minecraft:coral_fan_dead 4
+- minecraft:piston 5
+- minecraft:sticky_piston 5
+- minecraft:spruce_button 4
+- minecraft:birch_button 4
+- minecraft:jungle_button 4
+- minecraft:acacia_button 4
+- minecraft:dark_oak_button 4
+- minecraft:spruce_pressure_plate 0
+- minecraft:birch_pressure_plate 0
+- minecraft:jungle_pressure_plate 0
+- minecraft:acacia_pressure_plate 0
+- minecraft:dark_oak_pressure_plate 0
+- minecraft:coral_fan 0
+- minecraft:coral_fan 1
+- minecraft:coral_fan 2
+- minecraft:coral_fan 3
+- minecraft:coral_fan 4
+- minecraft:coral 0
+- minecraft:coral 1
+- minecraft:coral 2
+- minecraft:coral 3
+- minecraft:coral 4
+- minecraft:sea_grass 0
+- minecraft:kelp 0
+- minecraft:sea_pickle 0
+- minecraft:silver_shulker_box 1
+- minecraft:command_block 0
+- minecraft:repeating_command_block 0
+- minecraft:chain_command_block 0
+- minecraft:command_block_minecart 0
+- minecraft:water 0
+- minecraft:lava 0
+</details>
+
 ---
 
-### Possible Sources & Confirmed Components Used in UMT
+<h3>Creator Blocked Me</h3>
+<img width="579" height="269" alt="UMT_Creator_Blocked_Me" src="https://github.com/user-attachments/assets/5f1aca4c-3ceb-4b6a-bff5-1e4e8207f0ca" />
+
+<details>
+<summary><h3>Click Here For: Possible Sources & Confirmed Components Used In Official UMT</h3></summary>
 
 **Chunker (Likely Used)**
 Tool for upgrading/downgrading Minecraft worlds and converting between editions.  
@@ -135,7 +228,7 @@ Tool for upgrading/downgrading Minecraft worlds and converting between editions.
 - Supports Java ↔ Bedrock + Bedrock downgrading and upgrading
 - [Chunker Open Source](https://github.com/HiveGamesOSS/Chunker)
 
-> No official proof Mat used Chunker, but it would make sense instead of rebuilding these systems repeatedly.
+> There is no official proof Mat used Chunker, but it would make sense logically instead of rebuilding these systems repeatedly.
 
 **leveldb-mcpe-latest-build (Confirmed)**  
 - [Leveldb-MCPE-Latest-Build](https://github.com/Amulet-Team/leveldb-mcpe)
@@ -149,10 +242,7 @@ Tool for upgrading/downgrading Minecraft worlds and converting between editions.
 <img width="248" height="42" alt="image" src="https://github.com/user-attachments/assets/56b9e9e2-31b5-45e5-9c78-0ff2ef75f886" />
 <img width="241" height="67" alt="image" src="https://github.com/user-attachments/assets/6768aacf-811d-4ed8-a78e-470ef6e89b57" />
 <img width="506" height="217" alt="image" src="https://github.com/user-attachments/assets/95549d4e-1747-4b4f-9177-d44698831bda" />
-
-
-<h3>Creator Blocked Me</h3>
-<img width="579" height="269" alt="UMT_Creator_Blocked_Me" src="https://github.com/user-attachments/assets/5f1aca4c-3ceb-4b6a-bff5-1e4e8207f0ca" />
+</details>
 
 ## Purpose of This Project
 
