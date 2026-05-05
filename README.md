@@ -131,7 +131,7 @@ From the application’s perspective, everything appears **fully legitimate and 
 > 
 >In comparison, the official UMT software removes mobs and some items during both console to console and Java to console conversions, while my version preserves this data for console to console worlds.
 
-<details><summary>Click Here To See What Items UMT Changes</summary>
+<details><summary>Click Here To See What UMT Changes Removes</summary>
 <strong>None For TU73</strong>
 
 <strong>UMT Replaces TU68</strong>
