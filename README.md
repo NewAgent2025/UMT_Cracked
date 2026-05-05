@@ -131,12 +131,61 @@ From the application’s perspective, everything appears **fully legitimate and 
 > 
 >In comparison, the official UMT software removes mobs and some items during both console to console and Java to console conversions, while my version preserves this data for console to console worlds.
 
-<details><summary>Click Here To See What UMT Changes Removes</summary>
-<strong>None For TU73</strong>
+<details><summary>Click Here To See What UMT Changes/Removes</summary>
+
+<strong>UMT Replaces TU73</strong>
+
+- THERE IS NONE SAME FOR BLOCKS
+
+<strong>UMT Removes TU73</strong>
+
+- Mob Spawners
+- All Mobs
+- Kept Entities 1: Armor Stand 2: Dropped Item "THE REST Are Removed"
+- minecraft:command_block 0
+- minecraft:repeating_command_block 0
+- minecraft:chain_command_block 0
+- minecraft:command_block_minecart 0
+- minecraft:water 0
+- minecraft:lava 0
 
 <strong>UMT Replaces TU68</strong>
   
 - minecraft:dark_oak_stairs To minecraft:jungle_stairs Aka id:163
+- BLOCKS REPLACED
+- minecraft:dried_kelp_block 0 To minecraft:air
+- minecraft:stripped_log_oak 0 To minecraft:air
+- minecraft:stripped_log_spruce 0 To minecraft:air
+- minecraft:stripped_log_birch 0 To minecraft:air
+- minecraft:stripped_log_jungle 0 To minecraft:air
+- minecraft:stripped_log_acacia 0 To minecraft:air
+- minecraft:stripped_log_dark_oak 0 To minecraft:air
+- minecraft:blue_ice 0 To minecraft:log 0 Aka id:17
+- minecraft:spruce_trapdoor 0 To minecraft:air And minecraft:leaves 2 Aka id:18:2 And minecraft:leaves 3 Aka id:18:3 And minecraft:leaves 0 Aka id:18:0 And minecraft:leaves 1 Aka id:18:1
+- minecraft:birch_trapdoor 0 To minecraft:leaves 0 Aka id:18:0 And minecraft:sponge 0 Aka id:19 And minecraft:sponge 1 Aka id:19:1
+- minecraft:jungle_trapdoor 0 To minecraft:glass 0 Aka id:20
+- minecraft:acacia_trapdoor 0 To minecraft:lapis_ore 0 Aka id:21
+- minecraft:dark_oak_trapdoor 0 To minecraft:lapis_block 0 Aka id:22
+- minecraft:prismarine_slab 0 To minecraft:air
+- minecraft:prismarine_slab 1 To minecraft:air
+- minecraft:prismarine_slab 2 To minecraft:air
+- minecraft:prismarine_bricks_stairs 2 To minecraft:air
+- minecraft:dark_prismarine_stairs 2 To minecraft:air
+- minecraft:prismarine_stairs 2 To minecraft:air
+- minecraft:pumpkin 0 To minecraft:air
+- minecraft:deadbush 0 To minecraft:air
+- minecraft:spruce_button 4 To minecraft:air
+- minecraft:birch_button 4 To minecraft:air
+- minecraft:jungle_button 4 To minecraft:air
+- minecraft:acacia_button 4 To minecraft:air
+- minecraft:dark_oak_button 4 To minecraft:air
+- minecraft:spruce_pressure_plate 0 To minecraft:air
+- minecraft:birch_pressure_plate 0 To minecraft:air
+- minecraft:jungle_pressure_plate 0 To minecraft:air
+- minecraft:acacia_pressure_plate 0 To minecraft:air
+- minecraft:dark_oak_pressure_plate 0 To minecraft:air
+- minecraft:turtle_egg 0 To minecraft:air
+- minecraft:conduit 0 To minecraft:air
 
 <strong>UMT Removes TU68</strong>
 - minecraft:prismarine_slab 0
@@ -163,6 +212,7 @@ From the application’s perspective, everything appears **fully legitimate and 
 - minecraft:stripped_log_acacia 0
 - minecraft:stripped_log_dark_oak 0
 - minecraft:turtle_egg 0
+- minecraft:conduit 0
 - minecraft:coral_block 0
 - minecraft:coral_block 1
 - minecraft:coral_block 2
@@ -207,6 +257,7 @@ From the application’s perspective, everything appears **fully legitimate and 
 - minecraft:kelp 0
 - minecraft:sea_pickle 0
 - minecraft:silver_shulker_box 1
+- minecraft:pumpkin 0
 - minecraft:command_block 0
 - minecraft:repeating_command_block 0
 - minecraft:chain_command_block 0
