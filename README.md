@@ -123,10 +123,12 @@ From the application’s perspective, everything appears **fully legitimate and 
 | JAVA → Xbox 360          | PC Java To TU1-TU73 | ✔️             |
 | JAVA → PS3               | PC Java To TU1-TU73 | ✔️             |
 | JAVA → Wii U             | PC Java To TU1-TU73 | ✔️             |
-> ⚠️TAKE NOTE: Mob spawners are removed during conversion to prevent save failures and potential world crashes.
 
+### ⚠️TAKE NOTE:
+> Mob spawners are removed during conversion to prevent save failures and potential world crashes.
+> 
 > Converting from Java to console may currently result in the loss of mobs, blocks, items, and other data. This is a known limitation and will be addressed in a future update.
-
+> 
 >In comparison, the official UMT software removes mobs and some items during both console to console and Java to console conversions, while my version preserves this data for console to console worlds.
 
 <details><summary>Click Here To See What Items UMT Changes</summary>
