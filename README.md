@@ -152,7 +152,9 @@ From the application’s perspective, everything appears **fully legitimate and 
 <strong>UMT Replaces TU68</strong>
   
 - minecraft:dark_oak_stairs To minecraft:jungle_stairs Aka id:163
-- BLOCKS REPLACED
+
+- <strong>BLOCKS REPLACED</strong>
+
 - minecraft:dried_kelp_block 0 To minecraft:air
 - minecraft:stripped_log_oak 0 To minecraft:air
 - minecraft:stripped_log_spruce 0 To minecraft:air
@@ -179,13 +181,17 @@ From the application’s perspective, everything appears **fully legitimate and 
 - minecraft:jungle_button 4 To minecraft:air
 - minecraft:acacia_button 4 To minecraft:air
 - minecraft:dark_oak_button 4 To minecraft:air
-- minecraft:spruce_pressure_plate 0 To minecraft:air
-- minecraft:birch_pressure_plate 0 To minecraft:air
-- minecraft:jungle_pressure_plate 0 To minecraft:air
-- minecraft:acacia_pressure_plate 0 To minecraft:air
-- minecraft:dark_oak_pressure_plate 0 To minecraft:air
+- minecraft:spruce_pressure_plate 0 To minecraft:obsidian Aka id:49
+- minecraft:birch_pressure_plate 0 To minecraft:tnt Aka id:46
+- minecraft:jungle_pressure_plate 0 To minecraft:mossy_cobblestone Aka id:48
+- minecraft:acacia_pressure_plate 0 To minecraft:brick_block Aka id:45
+- minecraft:dark_oak_pressure_plate 0 To minecraft:bookshelf Aka id:47
 - minecraft:turtle_egg 0 To minecraft:air
 - minecraft:conduit 0 To minecraft:air
+- minecraft:command_block 0 To minecraft:air
+- minecraft:repeating_command_block 0 To minecraft:air
+- minecraft:chain_command_block 0 To minecraft:air
+- minecraft:command_block_minecart 0 To minecraft:air
 
 <strong>UMT Removes TU68</strong>
 - minecraft:prismarine_slab 0
