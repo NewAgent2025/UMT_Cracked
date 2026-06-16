@@ -286,7 +286,7 @@ From the application’s perspective, everything appears **fully legitimate and 
 <summary><h3>Click Here For: Possible Sources & Confirmed Components Used In Official UMT</h3></summary>
 
 **Chunker (Extremely Likely After More Research)**
-Tool for upgrading/downgrading Minecraft worlds and converting between editions.  
+- Tool for upgrading/downgrading Minecraft worlds and converting between editions.  
 - Java: 26.2 → 1.8.8
 - Bedrock: 1.26.30 → 1.12.0
 - Supports Java ↔ Bedrock + Bedrock downgrading and upgrading
