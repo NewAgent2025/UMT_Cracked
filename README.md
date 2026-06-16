@@ -110,24 +110,29 @@ From the application’s perspective, everything appears **fully legitimate and 
 
 | World Conversion Type     | Version Requirement | Working        |
 |--------------------------|--------------------|----------------|
-| Xbox 360 → PS3           |  TU1 To TU68–TU73  | ✔️             |
-| Xbox 360 → Wii U         |  TU1 To TU68–TU73  | ✔️             |
-| PS3 → Xbox 360           |  TU1 To TU68–TU73  | ✔️             |
-| Wii U → Xbox 360         |  TU1 To TU68–TU73  | ✔️             |
-| (Encrypted) PS3 GAMEDATA |  ❌ Not Supported  | ❌ Not Supported |
-| Wii U → PS3              |  TU1 To TU68–TU73  | ✔️             |
-| PS3 → Wii U              |  TU1 To TU68–TU73  | ✔️             |
+| Xbox 360 → PS3           |  TU1 To TU68–TU75  | ✔️             |
+| Xbox 360 → Wii U         |  TU1 To TU68–TU75  | ✔️             |
+| PS3 → Xbox 360           |  TU1 To TU68–TU75  | ✔️             |
+| Wii U → Xbox 360         |  TU1 To TU68–TU75  | ✔️             |
+| (Encrypted) PS3 GAMEDATA |  TU1 To TU68–TU75  | ✔️             |
+| Wii U → PS3              |  TU1 To TU68–TU75  | ✔️             |
+| PS3 → Wii U              |  TU1 To TU68–TU75  | ✔️             |
 | Xbox 360 → JAVA          | TU1 To Any Version | ✔️             |
 | PS3 → JAVA               | TU1 To Any Version | ✔️             |
 | Wii U → JAVA             | TU1 To Any Version | ✔️             |
-| JAVA → Xbox 360          | PC Java To TU1-TU73 | ✔️             |
-| JAVA → PS3               | PC Java To TU1-TU73 | ✔️             |
-| JAVA → Wii U             | PC Java To TU1-TU73 | ✔️             |
+| JAVA → Xbox 360          | PC Java To TU1-TU75 |⚠️ Partially   |
+| JAVA → PS3               | PC Java To TU1-TU75 |⚠️ Partially   |
+| JAVA → Wii U             | PC Java To TU1-TU75 |⚠️ Partially   |
+| BEDROCK → Xbox 360       | BEDROCK To TU1-TU75 |⚠️ Partially   |
+| BEDROCK → PS3            | BEDROCK To TU1-TU75 |⚠️ Partially   |
+| BEDROCK → Wii U          | BEDROCK To TU1-TU75 |⚠️ Partially   |
+| JAVA → BEDROCK           |PC Java To BEDROCK PE| ✔️             |
+| BEDROCK → JAVA           |BEDROCK PE To PC Java| ✔️             |
 
 ### ⚠️TAKE NOTE:
 > Mob spawners are removed during conversion to prevent save failures and potential world crashes.
 > 
-> Converting from Java to console may currently result in the loss of mobs, blocks, items, and other data. This is a known limitation and will be addressed in a future update.
+> Converting from Java/Bedrock to console may currently result in the loss of mobs, blocks, items, and other data. This is a known limitation and will be addressed in a future update.
 > 
 >In comparison, the official UMT software removes mobs and some items during both console to console and Java to console conversions, while my version preserves this data for console to console worlds.
 
@@ -280,10 +285,10 @@ From the application’s perspective, everything appears **fully legitimate and 
 <details>
 <summary><h3>Click Here For: Possible Sources & Confirmed Components Used In Official UMT</h3></summary>
 
-**Chunker (Likely Used)**
+**Chunker (Extremely Likely After More Research)**
 Tool for upgrading/downgrading Minecraft worlds and converting between editions.  
-- Java: 1.21.11 → 1.8.8  
-- Bedrock: 1.21.130 → 1.12.1.1  
+- Java: 26.2 → 1.8.8
+- Bedrock: 1.26.30 → 1.12.0
 - Supports Java ↔ Bedrock + Bedrock downgrading and upgrading
 - [Chunker Open Source](https://github.com/HiveGamesOSS/Chunker)
 
@@ -291,7 +296,7 @@ Tool for upgrading/downgrading Minecraft worlds and converting between editions.
 
 **leveldb-mcpe-latest-build (Confirmed)**  
 - [Leveldb-MCPE-Latest-Build](https://github.com/Amulet-Team/leveldb-mcpe)
-- Used for handling Bedrock world data (LevelDB format)  
+- Used for handling Bedrock world data (LevelDB format)
 - Confirmed via UMT source code
 <img width="677" height="46" alt="image" src="https://github.com/user-attachments/assets/d1754c13-770a-46f4-aca0-14a88dd266e6" />
 
