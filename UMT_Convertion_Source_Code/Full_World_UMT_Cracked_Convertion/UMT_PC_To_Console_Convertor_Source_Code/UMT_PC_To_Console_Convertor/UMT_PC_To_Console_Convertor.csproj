@@ -1,0 +1,278 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{02EE7A85-11E4-4207-A053-B214FEBB1A2A}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>UMT_PC_To_Console_Convertor</RootNamespace>
+    <AssemblyName>UMT_PC_To_Console_Convertor</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <StartupObject>Class34</StartupObject>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="NBTExplorerWrapper">
+      <HintPath>..\..\NBTExplorerWrapper.dll</HintPath>
+    </Reference>
+    <Reference Include="NBTModel">
+      <HintPath>..\..\NBTModel.dll</HintPath>
+    </Reference>
+    <Reference Include="Substrate">
+      <HintPath>..\..\Substrate.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Windows.Forms" />
+  </ItemGroup>
+  <ItemGroup>
+    <AppDesigner Include="Properties\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BlockId.cs" />
+    <Compile Include="Class1.cs" />
+    <Compile Include="Class11.cs" />
+    <Compile Include="Class14.cs" />
+    <Compile Include="Class15.cs" />
+    <Compile Include="Class16.cs" />
+    <Compile Include="Class17.cs" />
+    <Compile Include="Class2.cs" />
+    <Compile Include="Class20.cs" />
+    <Compile Include="Class21.cs" />
+    <Compile Include="Class22.cs" />
+    <Compile Include="Class23.cs" />
+    <Compile Include="Class24.cs" />
+    <Compile Include="Class25.cs" />
+    <Compile Include="Class26.cs" />
+    <Compile Include="Class27.cs" />
+    <Compile Include="Class28.cs" />
+    <Compile Include="Class29.cs" />
+    <Compile Include="Class3.cs" />
+    <Compile Include="Class30.cs" />
+    <Compile Include="Class31.cs" />
+    <Compile Include="Class32.cs" />
+    <Compile Include="Class33.cs" />
+    <Compile Include="Class34.cs" />
+    <Compile Include="Class35.cs" />
+    <Compile Include="Class36.cs" />
+    <Compile Include="Class37.cs" />
+    <Compile Include="Class38.cs" />
+    <Compile Include="Class4.cs" />
+    <Compile Include="Class5.cs" />
+    <Compile Include="Class6.cs" />
+    <Compile Include="Class7.cs" />
+    <Compile Include="Class8.cs" />
+    <Compile Include="Class9.cs" />
+    <Compile Include="comparer\LayerSorter.cs" />
+    <Compile Include="comparer\ListViewItemComparer.cs" />
+    <Compile Include="controls\BiomeReplace.cs" />
+    <Compile Include="controls\BlockReplace.cs" />
+    <Compile Include="controls\BlockSettingsUI.cs" />
+    <Compile Include="controls\ChunkButtonsFrame.cs" />
+    <Compile Include="controls\ChunkUI.cs" />
+    <Compile Include="controls\ControlSupport.cs" />
+    <Compile Include="controls\DimensionDisplay.cs" />
+    <Compile Include="controls\DirType.cs" />
+    <Compile Include="controls\DropDownItem.cs" />
+    <Compile Include="controls\ListViewEx.cs" />
+    <Compile Include="controls\MapButtonsFrame.cs" />
+    <Compile Include="controls\MapDimension.cs" />
+    <Compile Include="controls\MapItem.cs" />
+    <Compile Include="controls\MapItemList.cs" />
+    <Compile Include="controls\MapManagerUI.cs" />
+    <Compile Include="controls\MatchEntry.cs" />
+    <Compile Include="controls\MatchList.cs" />
+    <Compile Include="controls\MessageFieldType.cs" />
+    <Compile Include="controls\MetaTagEntry.cs" />
+    <Compile Include="controls\MetaTagList.cs" />
+    <Compile Include="controls\NBTFrame.cs" />
+    <Compile Include="controls\ProgressBarEx.cs" />
+    <Compile Include="controls\RegionDisplay.cs" />
+    <Compile Include="controls\ReplaceBiomeConfig.cs" />
+    <Compile Include="controls\ReplaceBlockConfig.cs" />
+    <Compile Include="controls\ReplaceEntry.cs" />
+    <Compile Include="controls\ReplaceList.cs" />
+    <Compile Include="controls\VariableEntry.cs" />
+    <Compile Include="controls\VariableList.cs" />
+    <Compile Include="Enum0.cs" />
+    <Compile Include="Enum1.cs" />
+    <Compile Include="Enum2.cs" />
+    <Compile Include="Form0.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form0.Designer.cs">
+      <DependentUpon>Form0.cs</DependentUpon>
+    </Compile>
+    <Compile Include="forms\ConversionStatus.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="forms\ConversionStatus.Designer.cs">
+      <DependentUpon>ConversionStatus.cs</DependentUpon>
+    </Compile>
+    <Compile Include="forms\ConvertFromPC.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="forms\ConvertFromPC.Designer.cs">
+      <DependentUpon>ConvertFromPC.cs</DependentUpon>
+    </Compile>
+    <Compile Include="forms\MCFindBlock.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="forms\MCFindBlock.Designer.cs">
+      <DependentUpon>MCFindBlock.cs</DependentUpon>
+    </Compile>
+    <Compile Include="forms\MessageFieldType.cs" />
+    <Compile Include="forms\PS3Archive.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="forms\PS3Archive.Designer.cs">
+      <DependentUpon>PS3Archive.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ListViewColumnSorter.cs" />
+    <Compile Include="MainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainForm.Designer.cs">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MCSBCode\ConvertFromPC.cs" />
+    <Compile Include="MCSBCode\MCFileTree.cs" />
+    <Compile Include="MCSBCode\MCNBTTreeSupport.cs" />
+    <Compile Include="MCSBCode\MCSupport.cs" />
+    <Compile Include="MCSBCode\TU17Builder.cs" />
+    <Compile Include="MCSBCode\TU17Converter.cs" />
+    <Compile Include="MCSBCode\TU17Parser.cs" />
+    <Compile Include="MCSBCode\Workers\DeleteWorkingFolder.cs" />
+    <Compile Include="MCSBCode\Workers\MapConverterWorker.cs" />
+    <Compile Include="MCSBCode\Workers\PartialChunkWorker.cs" />
+    <Compile Include="MCSBCode\Workers\PS3ARCWorker.cs" />
+    <Compile Include="MCSBCode\XBOXCompression.cs" />
+    <Compile Include="model\ArcEntry.cs" />
+    <Compile Include="model\AttributeLookup.cs" />
+    <Compile Include="model\Biome.cs" />
+    <Compile Include="model\BiomeChange.cs" />
+    <Compile Include="model\Block.cs" />
+    <Compile Include="model\BlockChange.cs" />
+    <Compile Include="model\BlockDataValues.cs" />
+    <Compile Include="model\BlockSearchResult.cs" />
+    <Compile Include="model\ChunkData.cs" />
+    <Compile Include="model\ChunkIndexEntry.cs" />
+    <Compile Include="model\ChunkLayer.cs" />
+    <Compile Include="model\ChunkLookup.cs" />
+    <Compile Include="model\ChunkPattern.cs" />
+    <Compile Include="model\ConditionValueType.cs" />
+    <Compile Include="model\ConsoleChunkFormat.cs" />
+    <Compile Include="model\Constants.cs" />
+    <Compile Include="model\ConvertConsoleParameters.cs" />
+    <Compile Include="model\ConvertFromPCParameters.cs" />
+    <Compile Include="model\ConvertParameters.cs" />
+    <Compile Include="model\ConvertStatus.cs" />
+    <Compile Include="model\ConvertToPCParameters.cs" />
+    <Compile Include="model\ConvertType.cs" />
+    <Compile Include="model\DeleteFolderParameter.cs" />
+    <Compile Include="model\DimensionWorkingData.cs" />
+    <Compile Include="model\DisplayUI.cs" />
+    <Compile Include="model\EntityCategory.cs" />
+    <Compile Include="model\EntityItem.cs" />
+    <Compile Include="model\EntityLookup.cs" />
+    <Compile Include="model\EntitySearchResult.cs" />
+    <Compile Include="model\EntityType.cs" />
+    <Compile Include="model\ExtractChunksParameter.cs" />
+    <Compile Include="model\FileStateType.cs" />
+    <Compile Include="model\FlipType.cs" />
+    <Compile Include="model\GClass0.cs" />
+    <Compile Include="model\GEnum0.cs" />
+    <Compile Include="model\IndexEntry.cs" />
+    <Compile Include="model\IndexOffsetData.cs" />
+    <Compile Include="model\InventoryItem.cs" />
+    <Compile Include="model\Item.cs" />
+    <Compile Include="model\ItemLookups.cs" />
+    <Compile Include="model\LayersClipboard.cs" />
+    <Compile Include="model\LibraryItem.cs" />
+    <Compile Include="model\MapBlockParameter.cs" />
+    <Compile Include="model\MapStatusType.cs" />
+    <Compile Include="model\MCMap.cs" />
+    <Compile Include="model\ModifiedFile.cs" />
+    <Compile Include="model\NodeSearchcriterion.cs" />
+    <Compile Include="model\ProcessStateType.cs" />
+    <Compile Include="model\RegionDisplayChunk.cs" />
+    <Compile Include="model\RegionWorkingData.cs" />
+    <Compile Include="model\ReplaceBiomeGlobalParameter.cs" />
+    <Compile Include="model\ReplaceBlockGlobalParameter.cs" />
+    <Compile Include="model\ReplaceBlockParameter.cs" />
+    <Compile Include="model\ReplaceValueTagType.cs" />
+    <Compile Include="model\RotateType.cs" />
+    <Compile Include="model\RunArgs.cs" />
+    <Compile Include="model\RunTypes.cs" />
+    <Compile Include="model\SearchBlockParameter.cs" />
+    <Compile Include="model\SearchEntityParameter.cs" />
+    <Compile Include="model\SearchReplaceParameter.cs" />
+    <Compile Include="model\SignText.cs" />
+    <Compile Include="model\TileEntityItem.cs" />
+    <Compile Include="model\TileEntityLookup.cs" />
+    <Compile Include="model\TU17ChunkData.cs" />
+    <Compile Include="model\TU17VersionType.cs" />
+    <Compile Include="model\Working.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Settings.cs" />
+    <Compile Include="Properties\Settings.Designer.cs">
+      <DependentUpon>Settings.settings</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="PS3FileSystem\MessageType.cs" />
+    <Compile Include="PS3FileSystem\Param_PFD.cs" />
+    <Compile Include="PS3FileSystem\PARAM_SFO.cs" />
+    <Compile Include="PS3FileSystem\PS3Action.cs" />
+    <Compile Include="PS3FileSystem\Ps3File.cs" />
+    <Compile Include="PS3FileSystem\Ps3SaveManager.cs" />
+    <Compile Include="PS3FileSystem\SecureFileInfo.cs" />
+    <Compile Include="PS3GameResigner\PS3Support\Crc32.cs" />
+    <Compile Include="SGExtractDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SGExtractDialog.Designer.cs">
+      <DependentUpon>SGExtractDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Struct5.cs" />
+    <Compile Include="utils\FileUtils.cs" />
+    <Compile Include="utils\ImageUtils.cs" />
+    <Compile Include="utils\IntSringConverter.cs" />
+    <Compile Include="utils\NativeMethods.cs" />
+    <Compile Include="utils\NibbleSetters.cs" />
+    <Compile Include="utils\ProcessCaller.cs" />
+    <Compile Include="utils\Utils.cs" />
+    <Compile Include="validation\CompareResult.cs" />
+    <Compile Include="validation\FileCompare.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

@@ -1,0 +1,354 @@
+256, 0, Iron Shovel
+257, 0, Iron Pickaxe
+258, 0, Iron Axe
+259, 0, Flint and Steel
+260, 0, Apple
+261, 0, Bow
+262, 0, Arrow
+263, 0, Coal
+263, 1, Charcoal
+264, 0, Diamond
+265, 0, Iron Ingot
+266, 0, Gold Ingot
+267, 0, Iron Sword
+268, 0, Wooden Sword
+269, 0, Wooden Shovel
+270, 0, Wooden Pickaxe
+271, 0, Wooden Axe
+272, 0, Stone Sword
+273, 0, Stone Shovel
+274, 0, Stone Pickaxe
+275, 0, Stone Axe
+276, 0, Diamond Sword
+277, 0, Diamond Shovel
+278, 0, Diamond Pickaxe
+279, 0, Diamond Axe
+280, 0, Stick
+281, 0, Bowl
+282, 0, Mushroom Stew
+283, 0, Golden Sword
+284, 0, Golden Shovel
+285, 0, Golden Pickaxe
+286, 0, Golden Axe
+287, 0, String
+288, 0, Feather
+289, 0, Gunpowder
+290, 0, Wooden Hoe
+291, 0, Stone Hoe
+292, 0, Iron Hoe
+293, 0, Diamond Hoe
+294, 0, Gold Hoe
+295, 0, Seeds
+296, 0, Wheat
+297, 0, Bread
+298, 0, Leather Cap
+299, 0, Leather Tunic
+300, 0, Leather Pants
+301, 0, Leather Boots
+302, 0, Chain Helmet
+303, 0, Chain Chestplate
+304, 0, Chain Leggings
+305, 0, Chain Boots
+306, 0, Iron Helmet
+307, 0, Iron Chestplate
+308, 0, Iron Leggings
+309, 0, Iron Boots
+310, 0, Diamond Helmet
+311, 0, Diamond Chestplate
+312, 0, Diamond Leggings
+313, 0, Diamond Boots
+314, 0, Golden Helmet
+315, 0, Golden Chestplate
+316, 0, Golden Leggings
+317, 0, Golden Boots
+318, 0, Flint
+319, 0, Raw Porkchop
+320, 0, Cooked Porkchop
+321, 0, Painting
+322, 0, Golden Apple
+322, 1, Enchanted Golden Apple
+323, 0, Sign
+324, 0, Wooden Door
+325, 0, Bucket
+326, 0, Water Bucket
+327, 0, Lava Bucket
+328, 0, Minecart
+329, 0, Saddle
+330, 0, Iron Door
+331, 0, Redstone
+332, 0, Snowball
+333, 0, Boat
+334, 0, Leather
+335, 0, Milk
+336, 0, Brick
+337, 0, Clay
+338, 0, Sugar Canes
+339, 0, Paper
+340, 0, Book
+341, 0, Slimeball
+342, 0, Minecart with Chest
+343, 0, Minecart with Furnace
+344, 0, Egg
+345, 0, Compass
+346, 0, Fishing Rod
+347, 0, Clock
+348, 0, Glowstone Dust
+349, 0, Raw Fish
+349, 1, Raw Salmon
+349, 2, Clownfish
+349, 3, Pufferfish
+350, 0, Cooked Fish
+350, 1, Cooked Salmon
+351, 0, Ink Sac
+351, 1, Rose Red
+351, 2, Cactus Green
+351, 3, Cocoa Beans
+351, 4, Lapis Lazuli
+351, 5, Purple Dye
+351, 6, Cyan Dye
+351, 7, Light Gray Dye
+351, 8, Gray Dye
+351, 9, Pink Dye
+351, 10, Lime Dye
+351, 11, Dandelion Yellow
+351, 12, Light Blue Dye
+351, 13, Magenta Dye
+351, 14, Orange Dye
+351, 15, Bone Meal
+352, 0, Bone 
+353, 0, Sugar
+354, 0, Cake
+355, 0, Bed
+356, 0, Redstone Repeater
+357, 0, Cookie
+358, 0, Map
+359, 0, Shears
+360, 0, Melon
+361, 0, Pumpkin Seeds
+362, 0, Melon Seeds
+363, 0, Raw Beef
+364, 0, Steak
+365, 0, Raw Chicken
+366, 0, Cooked Chicken
+367, 0, Rotten Flesh
+368, 0, Ender Pearl
+369, 0, Blaze Rod
+370, 0, Ghast Tear
+371, 0, Gold Nugget
+372, 0, Nether Wart
+373, 0, Water Bottle
+374, 0, Glass Bottle
+375, 0, Spider Eye
+376, 0, Fermented Spider Eye
+377, 0, Blaze Powder
+378, 0, Magma Cream
+379, 0, Brewing Stand
+380, 0, Cauldron
+381, 0, Eye of Ender
+382, 0, Glistering Melon
+383, 50, Spawn Creeper
+383, 51, Spawn Skeleton
+383, 52, Spawn Spider
+383, 54, Spawn Zombie
+383, 55, Spawn Slime
+383, 56, Spawn Ghast
+383, 57, Spawn Zombie Pigman
+383, 58, Spawn Enderman
+383, 59, Spawn Cave Spider
+383, 60, Spawn Silverfish
+383, 61, Spawn Blaze
+383, 62, Spawn Magma Cube
+383, 65, Spawn Bat
+383, 66, Spawn Witch
+383, 67, Spawn Endermite
+383, 68, Spawn Guardian
+383, 90, Spawn Pig
+383, 91, Spawn Sheep
+383, 92, Spawn Cow
+383, 93, Spawn Chicken
+383, 94, Spawn Squid
+383, 95, Spawn Wolf
+383, 96, Spawn Mooshroom
+383, 98, Spawn Ocelot
+383, 100, Spawn Horse
+383, 101, Spawn Rabbit
+383, 120, Spawn Villager
+384, 0, Bottle o' Enchanting
+385, 0, Fire Charge
+386, 0, Book and Quill
+387, 0, Written Book
+388, 0, Emerald
+389, 0, Item Frame
+390, 0, Flower Pot
+391, 0, Carrot
+392, 0, Potato
+393, 0, Baked Potato
+394, 0, Poisonous Potato
+395, 0, Empty Map
+396, 0, Golden Carrot
+397, 0, Skeleton Skull
+397, 1, Wither Skeleton Skull
+397, 2, Zombie Head
+397, 3, Head
+397, 4, Creeper Head
+398, 0, Carrot on a Stick
+399, 0, Nether Star
+400, 0, Pumpkin Pie
+401, 0, Firework Rocket
+402, 0, Firework Star
+403, 0, Enchanted Book
+404, 0, Redstone Comparator
+405, 0, Nether Brick
+406, 0, Nether Quartz
+407, 0, Minecart with TNT
+408, 0, Minecart with Hopper
+409, 0, Prismarine Shard
+410, 0, Prismarine Crystals
+411, 0, Raw Rabbit
+412, 0, Cooked Rabbit
+413, 0, Rabbit Stew
+414, 0, Rabbit's Foot
+415, 0, Rabbit Hide
+416, 0, Armor Stand
+417, 0, Iron Horse Armor
+418, 0, Gold Horse Armor
+419, 0, Diamond Horse Armor
+420, 0, Lead
+421, 0, Name Tag
+422, 0, Minecart with Command Block
+423, 0, Raw Mutton
+424, 0, Cooked Mutton
+425, 0, Black Banner
+425, 1, Red Banner
+425, 2, Green Banner
+425, 3, Brown Banner
+425, 4, Blue Banner
+425, 5, Purple Banner
+425, 6, Cyan Banner
+425, 7, Light Gray Banner
+425, 8, Gray Banner
+425, 9, Pink Banner
+425, 10, Lime Banner
+425, 11, Yellow Banner
+425, 12, Light Blue Banner
+425, 13, Magenta Banner
+425, 14, Orange Banner
+425, 15, White Banner
+427, 0, Spruce Door
+428, 0, Birch Door
+429, 0, Jungle Door
+430, 0, Acacia Door
+431, 0, Dark Oak Door
+432, 0, Chorus Fruit
+433, 0, Popped Chorus Fruit
+434, 0, Beetroot
+435, 0, Beetroot Seeds
+436, 0, Beetroot Soup
+437, 0, Dragon's Breath
+438, 0, Splash Potion
+439, 0, Spectral Arrow
+440, 0, Tipped Arrow
+441, 0, Lingering Potion
+442, 0, Shield
+443, 0, Elytra
+444, 0, Spruce Boat
+445, 0, Birch Boat
+446, 0, Jungle Boat
+447, 0, Acacia Boat
+448, 0, Dark Oak Boat
+449, 0, Totem of Undying
+450, 0, Shulker Shell
+452, 0, Iron Nugget
+2256, 0, 13 Disc
+2257, 0, Cat Disc
+2258, 0, Blocks Disc
+2259, 0,  	Chirp Disc
+2260, 0, Far Disc
+2261, 0, Mall Disc
+2262, 0,  	Mellohi Disc
+2263, 0, Stal Disc
+2264, 0, Strad Disc
+2265, 0, Ward Disc
+2266, 0, 11 Disc
+2267, 0, Wait Disc
+
+
+373, 16, Awkward Potion, 287
+373, 32, Thick Potion, 287
+373, 64, Mundane Potion, 287
+373, 8193, Regeneration (0:45), 288
+373, 8257, Regeneration (2:00), 288
+373, 8225, Regeneration II (0:22), 288
+373, 8194, Swiftness (3:00), 289
+373, 8258, Swiftness (8:00), 289
+373, 8226, Swiftness II (1:30), 289
+373, 8195, Fire Resistance (3:00), 290
+373, 8227, Fire Resistance (3:00), 290
+373, 8259, Fire Resistance (8:00), 290
+373, 8197, Healing (Instant), 292
+373, 8261, Healing (Instant), 292
+373, 8229, Healing II (Instant), 292
+373, 8201, Strength (3:00), 294
+373, 8265, Strength (8:00), 294
+373, 8233, Strength II (1:30), 294
+373, 8203, Potion of Leaping (3:00), 299
+373, 8267, Potion of Leaping (8:00), 299
+373, 8235, Potion of Leaping II (1:30), 299
+373, 8196, Poison (0:45), 291
+373, 8260, Poison (2:00), 291
+373, 8228, Poison II (0:22), 291
+373, 8200, Weakness (1:30), 295
+373, 8264, Weakness (4:00), 295
+373, 8202, Slowness (1:30), 293
+373, 8266, Slowness (4:00), 293
+373, 8204, Harming (Instant), 300
+373, 8236, Harming II (Instant), 300
+373, 8198, Night Vision (3:00), 297
+373, 8262, Night Vision (8:00), 297
+373, 8206, Invisibility (3:00), 293
+373, 8270, Invisibility (8:00), 293
+373, 8205, Water Breathing (3:00), 297
+373, 8269, Water Breathing (8:00), 297
+373, 8289, Regeneration II (1:00), 288
+373, 8290, Swiftness II (4:00), 289
+373, 8297, Strength II (4:00), 294
+373, 8292, Poison II (1:00), 291
+
+373, 16384, Splash Mundane, 273
+373, 16385, Regeneration (0:33), 274
+373, 16499, Regeneration (1:30), 274
+373, 16417, Regeneration II (0:16), 274
+373, 16386, Swiftness (2:15), 275
+373, 16450, Swiftness (6:00), 275
+373, 16418, Swiftness II (1:07), 275
+373, 16387, Fire Resistance (2:15), 276
+373, 16419, Fire Resistance (2:15), 276
+373, 16451, Fire Resistance (6:00), 276
+373, 16389, Healing (Instant), 278
+373, 16453, Healing (Instant), 278
+373, 16421, Healing II (Instant), 278
+373, 16393, Strength (2:15), 280
+373, 16457, Strength (6:00), 280
+373, 16425, Strength II (1:07), 280
+373, 16388, Poison (0:33), 277
+373, 16452, Poison (1:30), 277
+373, 16420, Poison II (0:16), 277
+373, 16392, Weakness (1:07), 286
+373, 16424, Weakness (1:07), 286
+373, 16456, Weakness (3:00), 286
+373, 16394, Slowness (1:07), 279
+373, 16426, Slowness (1:07), 279
+373, 16458, Slowness (3:00), 279
+373, 16396, Harming (Instant), 282
+373, 16460, Harming (Instant), 282
+373, 16428, Harming II (Instant), 282
+373, 16422, Night Vision (2:15), 283
+373, 16454, Night Vision (6:00), 283
+373, 16430, Invisibility (2:15), 284
+373, 16462, Invisibility (6:00), 284
+373, 16397, Water Breathing (3:00), 297
+373, 16461, Water Breathing (8:00), 297
+373, 16481, Regeneration II (0:45), 274
+373, 16482, Swiftness II (3:00), 275
+373, 16489, Strength II (3:00), 280
+373, 16484, Poison II (0:45), 277

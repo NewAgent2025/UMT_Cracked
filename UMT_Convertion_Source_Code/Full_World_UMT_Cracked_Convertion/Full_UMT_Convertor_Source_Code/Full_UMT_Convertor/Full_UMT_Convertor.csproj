@@ -1,0 +1,461 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{21388BF5-4A1F-4D6A-BBBB-7E6FB363B07A}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Full_UMT_ConvertorDB.Model</RootNamespace>
+    <AssemblyName>Full_UMT_Convertor</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <StartupObject>Class44</StartupObject>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="NAppUpdate.Framework">
+      <HintPath>..\..\NAppUpdate.Framework.dll</HintPath>
+    </Reference>
+    <Reference Include="NBTExplorerWrapper">
+      <HintPath>..\..\NBTExplorerWrapper.dll</HintPath>
+    </Reference>
+    <Reference Include="NBTModel">
+      <HintPath>..\..\NBTModel.dll</HintPath>
+    </Reference>
+    <Reference Include="Substrate">
+      <HintPath>..\..\Substrate.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <AppDesigner Include="Properties\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Class1.cs" />
+    <Compile Include="Class10.cs" />
+    <Compile Include="Class12.cs" />
+    <Compile Include="Class15.cs" />
+    <Compile Include="Class16.cs" />
+    <Compile Include="Class17.cs" />
+    <Compile Include="Class18.cs" />
+    <Compile Include="Class2.cs" />
+    <Compile Include="Class21.cs" />
+    <Compile Include="Class22.cs" />
+    <Compile Include="Class23.cs" />
+    <Compile Include="Class24.cs" />
+    <Compile Include="Class25.cs" />
+    <Compile Include="Class26.cs" />
+    <Compile Include="Class27.cs" />
+    <Compile Include="Class28.cs" />
+    <Compile Include="Class29.cs" />
+    <Compile Include="Class3.cs" />
+    <Compile Include="Class30.cs" />
+    <Compile Include="Class31.cs" />
+    <Compile Include="Class32.cs" />
+    <Compile Include="Class33.cs" />
+    <Compile Include="Class34.cs" />
+    <Compile Include="Class36.cs" />
+    <Compile Include="Class37.cs" />
+    <Compile Include="Class38.cs" />
+    <Compile Include="Class39.cs" />
+    <Compile Include="Class4.cs" />
+    <Compile Include="Class40.cs" />
+    <Compile Include="Class41.cs" />
+    <Compile Include="Class42.cs" />
+    <Compile Include="Class43.cs" />
+    <Compile Include="Class44.cs" />
+    <Compile Include="Class45.cs" />
+    <Compile Include="Class46.cs" />
+    <Compile Include="Class47.cs" />
+    <Compile Include="Class49.cs" />
+    <Compile Include="Class5.cs" />
+    <Compile Include="Class7.cs" />
+    <Compile Include="Class8.cs" />
+    <Compile Include="Class9.cs" />
+    <Compile Include="Enum0.cs" />
+    <Compile Include="Enum1.cs" />
+    <Compile Include="Enum2.cs" />
+    <Compile Include="Enum3.cs" />
+    <Compile Include="Full_UMT_Convertor\BlockColorIndex.cs" />
+    <Compile Include="Full_UMT_Convertor\BlockId.cs" />
+    <Compile Include="Full_UMT_Convertor\controls\BiomeReplace.cs" />
+    <Compile Include="Full_UMT_Convertor\controls\BiomeSelector.cs" />
+    <Compile Include="Full_UMT_Convertor\controls\BlockReplace.cs" />
+    <Compile Include="Full_UMT_Convertor\controls\ControlSupport.cs" />
+    <Compile Include="Full_UMT_Convertor\controls\DirType.cs" />
+    <Compile Include="Full_UMT_Convertor\controls\DoubleBufferPanel.cs" />
+    <Compile Include="Full_UMT_Convertor\controls\DropDownItem.cs" />
+    <Compile Include="Full_UMT_Convertor\controls\EnchantOfferForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Full_UMT_Convertor\controls\EnchantOfferForm.Designer.cs">
+      <DependentUpon>EnchantOfferForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Full_UMT_Convertor\controls\ListViewEx.cs" />
+    <Compile Include="Full_UMT_Convertor\controls\MapButtonsFrame.cs" />
+    <Compile Include="Full_UMT_Convertor\controls\MapDimension.cs" />
+    <Compile Include="Full_UMT_Convertor\controls\MapItem.cs" />
+    <Compile Include="Full_UMT_Convertor\controls\MapItemList.cs" />
+    <Compile Include="Full_UMT_Convertor\controls\MapViewType.cs" />
+    <Compile Include="Full_UMT_Convertor\controls\MatchEntry.cs" />
+    <Compile Include="Full_UMT_Convertor\controls\MatchList.cs" />
+    <Compile Include="Full_UMT_Convertor\Controls\MCWorldList.cs" />
+    <Compile Include="Full_UMT_Convertor\controls\MessageFieldType.cs" />
+    <Compile Include="Full_UMT_Convertor\controls\MetaTagEntry.cs" />
+    <Compile Include="Full_UMT_Convertor\controls\MetaTagList.cs" />
+    <Compile Include="Full_UMT_Convertor\Controls\PEWorldList.cs" />
+    <Compile Include="Full_UMT_Convertor\controls\ProgressBarEx.cs" />
+    <Compile Include="Full_UMT_Convertor\controls\ReplaceBiomeConfig.cs" />
+    <Compile Include="Full_UMT_Convertor\controls\ReplaceBlockConfig.cs" />
+    <Compile Include="Full_UMT_Convertor\controls\ReplaceEntry.cs" />
+    <Compile Include="Full_UMT_Convertor\controls\ReplaceList.cs" />
+    <Compile Include="Full_UMT_Convertor\controls\VariableEntry.cs" />
+    <Compile Include="Full_UMT_Convertor\controls\VariableList.cs" />
+    <Compile Include="Full_UMT_Convertor\Events\PCWorldEventArgs.cs" />
+    <Compile Include="Full_UMT_Convertor\Events\PEWorldEventArgs.cs" />
+    <Compile Include="Full_UMT_Convertor\forms\ChunkDesigner.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Full_UMT_Convertor\forms\ChunkDesigner.Designer.cs">
+      <DependentUpon>ChunkDesigner.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Full_UMT_Convertor\forms\ConversionStatus.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Full_UMT_Convertor\forms\ConversionStatus.Designer.cs">
+      <DependentUpon>ConversionStatus.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Full_UMT_Convertor\forms\ConversionStatusWithSave.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Full_UMT_Convertor\forms\ConversionStatusWithSave.Designer.cs">
+      <DependentUpon>ConversionStatusWithSave.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Full_UMT_Convertor\forms\ConvertFromPC.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Full_UMT_Convertor\forms\ConvertFromPC.Designer.cs">
+      <DependentUpon>ConvertFromPC.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Full_UMT_Convertor\forms\ConvertOffsetDisplay.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Full_UMT_Convertor\forms\ConvertOffsetDisplay.Designer.cs">
+      <DependentUpon>ConvertOffsetDisplay.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Full_UMT_Convertor\forms\ConvertToBedrockUI.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Full_UMT_Convertor\forms\ConvertToBedrockUI.Designer.cs">
+      <DependentUpon>ConvertToBedrockUI.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Full_UMT_Convertor\forms\ConvertToConsole.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Full_UMT_Convertor\forms\ConvertToConsole.Designer.cs">
+      <DependentUpon>ConvertToConsole.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Full_UMT_Convertor\forms\ConvertToPC.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Full_UMT_Convertor\forms\ConvertToPC.Designer.cs">
+      <DependentUpon>ConvertToPC.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Full_UMT_Convertor\forms\DimensionMap.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Full_UMT_Convertor\forms\DimensionMap.Designer.cs">
+      <DependentUpon>DimensionMap.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Full_UMT_Convertor\Forms\FolderNameEntry.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Full_UMT_Convertor\Forms\FolderNameEntry.Designer.cs">
+      <DependentUpon>FolderNameEntry.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Full_UMT_Convertor\forms\MCFindBlock.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Full_UMT_Convertor\forms\MCFindBlock.Designer.cs">
+      <DependentUpon>MCFindBlock.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Full_UMT_Convertor\Forms\MCPCFolder.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Full_UMT_Convertor\Forms\MCPCFolder.Designer.cs">
+      <DependentUpon>MCPCFolder.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Full_UMT_Convertor\Forms\MCPEFolder.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Full_UMT_Convertor\Forms\MCPEFolder.Designer.cs">
+      <DependentUpon>MCPEFolder.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Full_UMT_Convertor\forms\MessageFieldType.cs" />
+    <Compile Include="Full_UMT_Convertor\forms\PCConvertOffsetDisplay.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Full_UMT_Convertor\forms\PCConvertOffsetDisplay.Designer.cs">
+      <DependentUpon>PCConvertOffsetDisplay.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Full_UMT_Convertor\MainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Full_UMT_Convertor\MainForm.Designer.cs">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Full_UMT_Convertor\MapConverterII.cs" />
+    <Compile Include="Full_UMT_Convertor\MCSBCode\AquaticConverter.cs" />
+    <Compile Include="Full_UMT_Convertor\MCSBCode\AquaticParser.cs" />
+    <Compile Include="Full_UMT_Convertor\MCSBCode\ChestConnectioExtractnParameters.cs" />
+    <Compile Include="Full_UMT_Convertor\MCSBCode\ConversionChest.cs" />
+    <Compile Include="Full_UMT_Convertor\MCSBCode\ConvertConsole.cs" />
+    <Compile Include="Full_UMT_Convertor\MCSBCode\ConvertFromPC.cs" />
+    <Compile Include="Full_UMT_Convertor\MCSBCode\ConvertToBedrockFromConsole.cs" />
+    <Compile Include="Full_UMT_Convertor\MCSBCode\ConvertToPC.cs" />
+    <Compile Include="Full_UMT_Convertor\MCSBCode\Coord.cs" />
+    <Compile Include="Full_UMT_Convertor\MCSBCode\FlowerPotContent.cs" />
+    <Compile Include="Full_UMT_Convertor\MCSBCode\GRFSupport\GRFParser.cs" />
+    <Compile Include="Full_UMT_Convertor\MCSBCode\GRFSupport\GRFRule.cs" />
+    <Compile Include="Full_UMT_Convertor\MCSBCode\GRFSupport\GRFRuleDefinition.cs" />
+    <Compile Include="Full_UMT_Convertor\MCSBCode\GRFSupport\GRFRuleItem.cs" />
+    <Compile Include="Full_UMT_Convertor\MCSBCode\GRFSupport\LanguageItem.cs" />
+    <Compile Include="Full_UMT_Convertor\MCSBCode\GRFSupport\LanguageMessages.cs" />
+    <Compile Include="Full_UMT_Convertor\MCSBCode\GRFSupport\MessageItem.cs" />
+    <Compile Include="Full_UMT_Convertor\MCSBCode\JavaChestConnections.cs" />
+    <Compile Include="Full_UMT_Convertor\MCSBCode\MapBlocks.cs" />
+    <Compile Include="Full_UMT_Convertor\MCSBCode\MapBlockWorker.cs" />
+    <Compile Include="Full_UMT_Convertor\MCSBCode\MCFileTree.cs" />
+    <Compile Include="Full_UMT_Convertor\MCSBCode\MCNBTTreeSupport.cs" />
+    <Compile Include="Full_UMT_Convertor\MCSBCode\MCSupport.cs" />
+    <Compile Include="Full_UMT_Convertor\MCSBCode\ReplaceBiomeGlobalWorker.cs" />
+    <Compile Include="Full_UMT_Convertor\MCSBCode\ReplaceBiomesGlobal.cs" />
+    <Compile Include="Full_UMT_Convertor\MCSBCode\ReplaceBlockGlobalWorker.cs" />
+    <Compile Include="Full_UMT_Convertor\MCSBCode\ReplaceBlocks.cs" />
+    <Compile Include="Full_UMT_Convertor\MCSBCode\ReplaceBlocksGlobal.cs" />
+    <Compile Include="Full_UMT_Convertor\MCSBCode\SearchReplaceChunks.cs" />
+    <Compile Include="Full_UMT_Convertor\MCSBCode\TU17Builder.cs" />
+    <Compile Include="Full_UMT_Convertor\MCSBCode\TU17Converter.cs" />
+    <Compile Include="Full_UMT_Convertor\MCSBCode\TU17Parser.cs" />
+    <Compile Include="Full_UMT_Convertor\MCSBCode\Workers\BedrockChestConnections.cs" />
+    <Compile Include="Full_UMT_Convertor\MCSBCode\Workers\DeleteWorkingFolder.cs" />
+    <Compile Include="Full_UMT_Convertor\MCSBCode\Workers\MapConverterWorker.cs" />
+    <Compile Include="Full_UMT_Convertor\MCSBCode\Workers\PartialChunkWorker.cs" />
+    <Compile Include="Full_UMT_Convertor\MCSBCode\Workers\PS3ARCWorker.cs" />
+    <Compile Include="Full_UMT_Convertor\MCSBCode\XBOXCompression.cs" />
+    <Compile Include="Full_UMT_Convertor\MCSBCode\XboxPackageWorker.cs" />
+    <Compile Include="Full_UMT_Convertor\model\AquaticChunkData.cs" />
+    <Compile Include="Full_UMT_Convertor\model\AquaticConversionData.cs" />
+    <Compile Include="Full_UMT_Convertor\model\AquaticDefinition.cs" />
+    <Compile Include="Full_UMT_Convertor\model\ArcEntry.cs" />
+    <Compile Include="Full_UMT_Convertor\model\AttributeLookup.cs" />
+    <Compile Include="Full_UMT_Convertor\model\BedrockDataState.cs" />
+    <Compile Include="Full_UMT_Convertor\model\BedrockDataStateResult.cs" />
+    <Compile Include="Full_UMT_Convertor\model\Biome.cs" />
+    <Compile Include="Full_UMT_Convertor\model\BiomeChange.cs" />
+    <Compile Include="Full_UMT_Convertor\model\Block.cs" />
+    <Compile Include="Full_UMT_Convertor\model\BlockChange.cs" />
+    <Compile Include="Full_UMT_Convertor\model\BlockConversionWorker.cs" />
+    <Compile Include="Full_UMT_Convertor\model\BlockDataValues.cs" />
+    <Compile Include="Full_UMT_Convertor\model\BlockHandlerData.cs" />
+    <Compile Include="Full_UMT_Convertor\model\BlockHandlerz.cs" />
+    <Compile Include="Full_UMT_Convertor\model\BlockItem.cs" />
+    <Compile Include="Full_UMT_Convertor\model\BlockItemInject.cs" />
+    <Compile Include="Full_UMT_Convertor\model\BlockMaster.cs" />
+    <Compile Include="Full_UMT_Convertor\model\BlockSearchResult.cs" />
+    <Compile Include="Full_UMT_Convertor\model\BlockState.cs" />
+    <Compile Include="Full_UMT_Convertor\model\BlockStateDefinition.cs" />
+    <Compile Include="Full_UMT_Convertor\model\BlockStateGroup.cs" />
+    <Compile Include="Full_UMT_Convertor\model\BlockStateLayer.cs" />
+    <Compile Include="Full_UMT_Convertor\model\BlockStateProperty.cs" />
+    <Compile Include="Full_UMT_Convertor\model\BlockStateValue.cs" />
+    <Compile Include="Full_UMT_Convertor\model\BlockTranslation.cs" />
+    <Compile Include="Full_UMT_Convertor\model\ChunkData.cs" />
+    <Compile Include="Full_UMT_Convertor\model\ChunkIndexEntry.cs" />
+    <Compile Include="Full_UMT_Convertor\model\ChunkLayer.cs" />
+    <Compile Include="Full_UMT_Convertor\model\ChunkLookup.cs" />
+    <Compile Include="Full_UMT_Convertor\model\ChunkPattern.cs" />
+    <Compile Include="Full_UMT_Convertor\model\ConditionValueType.cs" />
+    <Compile Include="Full_UMT_Convertor\model\ConsoleChunkFormat.cs" />
+    <Compile Include="Full_UMT_Convertor\model\ConsoleItemLookups.cs" />
+    <Compile Include="Full_UMT_Convertor\model\Constants.cs" />
+    <Compile Include="Full_UMT_Convertor\model\ConversionFormat.cs" />
+    <Compile Include="Full_UMT_Convertor\model\ConvertConsoleParameters.cs" />
+    <Compile Include="Full_UMT_Convertor\model\ConvertDataStateDelegate.cs" />
+    <Compile Include="Full_UMT_Convertor\model\ConvertDataValueDelegate.cs" />
+    <Compile Include="Full_UMT_Convertor\model\ConvertFromPCParameters.cs" />
+    <Compile Include="Full_UMT_Convertor\model\ConvertIntoType.cs" />
+    <Compile Include="Full_UMT_Convertor\model\ConvertParameters.cs" />
+    <Compile Include="Full_UMT_Convertor\model\ConvertStatus.cs" />
+    <Compile Include="Full_UMT_Convertor\model\ConvertToPCParameters.cs" />
+    <Compile Include="Full_UMT_Convertor\model\ConvertToPEFromConsoleParameters.cs" />
+    <Compile Include="Full_UMT_Convertor\model\ConvertType.cs" />
+    <Compile Include="Full_UMT_Convertor\model\DataStateProperty.cs" />
+    <Compile Include="Full_UMT_Convertor\model\DeleteFolderParameter.cs" />
+    <Compile Include="Full_UMT_Convertor\model\DimensionWorkingData.cs" />
+    <Compile Include="Full_UMT_Convertor\model\DisplayUI.cs" />
+    <Compile Include="Full_UMT_Convertor\model\Enchantment.cs" />
+    <Compile Include="Full_UMT_Convertor\model\EntityCategory.cs" />
+    <Compile Include="Full_UMT_Convertor\model\EntityItem.cs" />
+    <Compile Include="Full_UMT_Convertor\model\EntityLookup.cs" />
+    <Compile Include="Full_UMT_Convertor\model\EntitySearchResult.cs" />
+    <Compile Include="Full_UMT_Convertor\model\EntityType.cs" />
+    <Compile Include="Full_UMT_Convertor\model\ExtractChunksParameter.cs" />
+    <Compile Include="Full_UMT_Convertor\model\FileStateType.cs" />
+    <Compile Include="Full_UMT_Convertor\model\FlipType.cs" />
+    <Compile Include="Full_UMT_Convertor\model\GClass0.cs" />
+    <Compile Include="Full_UMT_Convertor\model\GClass1.cs" />
+    <Compile Include="Full_UMT_Convertor\model\GEnum0.cs" />
+    <Compile Include="Full_UMT_Convertor\model\IndexEntry.cs" />
+    <Compile Include="Full_UMT_Convertor\model\IndexOffsetData.cs" />
+    <Compile Include="Full_UMT_Convertor\model\InventoryItem.cs" />
+    <Compile Include="Full_UMT_Convertor\model\Item.cs" />
+    <Compile Include="Full_UMT_Convertor\model\LibraryItem.cs" />
+    <Compile Include="Full_UMT_Convertor\model\MapBlockParameter.cs" />
+    <Compile Include="Full_UMT_Convertor\model\MapStatusType.cs" />
+    <Compile Include="Full_UMT_Convertor\model\MasterBlock.cs" />
+    <Compile Include="Full_UMT_Convertor\model\MasterBlockItem.cs" />
+    <Compile Include="Full_UMT_Convertor\model\MasterDefinition.cs" />
+    <Compile Include="Full_UMT_Convertor\model\MCCoordinate.cs" />
+    <Compile Include="Full_UMT_Convertor\model\MCMap.cs" />
+    <Compile Include="Full_UMT_Convertor\model\MobAge.cs" />
+    <Compile Include="Full_UMT_Convertor\model\ModifiedFile.cs" />
+    <Compile Include="Full_UMT_Convertor\model\NodeSearchcriterion.cs" />
+    <Compile Include="Full_UMT_Convertor\model\OfferItem.cs" />
+    <Compile Include="Full_UMT_Convertor\model\PaletteConversionResults.cs" />
+    <Compile Include="Full_UMT_Convertor\model\PCItemLookups.cs" />
+    <Compile Include="Full_UMT_Convertor\model\PEDimension.cs" />
+    <Compile Include="Full_UMT_Convertor\model\PEItemLookups.cs" />
+    <Compile Include="Full_UMT_Convertor\model\PERegion.cs" />
+    <Compile Include="Full_UMT_Convertor\model\PlatformType.cs" />
+    <Compile Include="Full_UMT_Convertor\model\PlayerDisplayData.cs" />
+    <Compile Include="Full_UMT_Convertor\model\PlayerMapData.cs" />
+    <Compile Include="Full_UMT_Convertor\model\PlayerPosition.cs" />
+    <Compile Include="Full_UMT_Convertor\model\ProcessStateType.cs" />
+    <Compile Include="Full_UMT_Convertor\model\RegionEntry.cs" />
+    <Compile Include="Full_UMT_Convertor\model\RegionWorkingData.cs" />
+    <Compile Include="Full_UMT_Convertor\model\ReplaceBiomeGlobalParameter.cs" />
+    <Compile Include="Full_UMT_Convertor\model\ReplaceBlockGlobalParameter.cs" />
+    <Compile Include="Full_UMT_Convertor\model\ReplaceBlockParameter.cs" />
+    <Compile Include="Full_UMT_Convertor\model\ReplaceValueTagType.cs" />
+    <Compile Include="Full_UMT_Convertor\model\RotateType.cs" />
+    <Compile Include="Full_UMT_Convertor\model\RunArgs.cs" />
+    <Compile Include="Full_UMT_Convertor\model\RunTypes.cs" />
+    <Compile Include="Full_UMT_Convertor\model\SearchBlockParameter.cs" />
+    <Compile Include="Full_UMT_Convertor\model\SearchCondition.cs" />
+    <Compile Include="Full_UMT_Convertor\model\SearchEntityParameter.cs" />
+    <Compile Include="Full_UMT_Convertor\model\SearchReplaceParameter.cs" />
+    <Compile Include="Full_UMT_Convertor\model\SignText.cs" />
+    <Compile Include="Full_UMT_Convertor\model\TileEntityItem.cs" />
+    <Compile Include="Full_UMT_Convertor\model\TileEntityLookup.cs" />
+    <Compile Include="Full_UMT_Convertor\model\TU17ChunkData.cs" />
+    <Compile Include="Full_UMT_Convertor\model\TU17VersionType.cs" />
+    <Compile Include="Full_UMT_Convertor\model\VillagerBehavior.cs" />
+    <Compile Include="Full_UMT_Convertor\model\Working.cs" />
+    <Compile Include="Full_UMT_Convertor\PECode\model\PEConsts.cs" />
+    <Compile Include="Full_UMT_Convertor\PECode\model\PERegionChunks.cs" />
+    <Compile Include="Full_UMT_Convertor\PECode\model\PEWorldChunks.cs" />
+    <Compile Include="Full_UMT_Convertor\PECode\PEUtility.cs" />
+    <Compile Include="Full_UMT_Convertor\Properties\Settings.cs" />
+    <Compile Include="Full_UMT_Convertor\Properties\Settings.Designer.cs">
+      <DependentUpon>Settings.settings</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Full_UMT_Convertor\SGExtractDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Full_UMT_Convertor\SGExtractDialog.Designer.cs">
+      <DependentUpon>SGExtractDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Full_UMT_Convertor\utils\CallBrowser.cs" />
+    <Compile Include="Full_UMT_Convertor\utils\DataConversion.cs" />
+    <Compile Include="Full_UMT_Convertor\utils\EmbeddedUtils.cs" />
+    <Compile Include="Full_UMT_Convertor\utils\FileUtils.cs" />
+    <Compile Include="Full_UMT_Convertor\utils\GraphicHelpers.cs" />
+    <Compile Include="Full_UMT_Convertor\utils\GRFUtils.cs" />
+    <Compile Include="Full_UMT_Convertor\utils\ImageUtils.cs" />
+    <Compile Include="Full_UMT_Convertor\utils\IntSringConverter.cs" />
+    <Compile Include="Full_UMT_Convertor\utils\NativeMethods.cs" />
+    <Compile Include="Full_UMT_Convertor\utils\NibbleSetters.cs" />
+    <Compile Include="Full_UMT_Convertor\utils\ProcessCaller.cs" />
+    <Compile Include="Full_UMT_Convertor\utils\Utils.cs" />
+    <Compile Include="Full_UMT_Convertor\validation\CompareResult.cs" />
+    <Compile Include="Full_UMT_Convertor\validation\ConversionTest.cs" />
+    <Compile Include="Full_UMT_Convertor\validation\FileCompare.cs" />
+    <Compile Include="Full_UMT_Convertor\workers\DirectBitmap.cs" />
+    <Compile Include="Full_UMT_Convertor\workers\ExtractLayerWorker.cs" />
+    <Compile Include="Full_UMT_Convertor\workers\JsonDataConversion.cs" />
+    <Compile Include="Full_UMT_Convertor\workers\ParseConditionsWorker.cs" />
+    <Compile Include="Full_UMT_Convertor\workers\Telemetry.cs" />
+    <Compile Include="ListViewColumnSorter.cs" />
+    <Compile Include="MCPELevelDBI\Iterator.cs" />
+    <Compile Include="MCPELevelDBI\LevelDBHandle.cs" />
+    <Compile Include="MCPELevelDBI\LevelDBInterop.cs" />
+    <Compile Include="MCPELevelDBI\model\DBRecord.cs" />
+    <Compile Include="MCPELevelDBI\workers\BlockPaletteWorker.cs" />
+    <Compile Include="MCPELevelDBI\workers\LevelDBWorker.cs" />
+    <Compile Include="MCPELevelDBI\workers\PEChunkWorker.cs" />
+    <Compile Include="MCPELevelDBI\workers\PEProcessWorker.cs" />
+    <Compile Include="NBTLibraryItem.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="PS3FileSystem\MessageType.cs" />
+    <Compile Include="PS3FileSystem\Param_PFD.cs" />
+    <Compile Include="PS3FileSystem\PARAM_SFO.cs" />
+    <Compile Include="PS3FileSystem\PS3Action.cs" />
+    <Compile Include="PS3FileSystem\Ps3File.cs" />
+    <Compile Include="PS3FileSystem\Ps3Save_Manager.cs" />
+    <Compile Include="PS3FileSystem\SecureFileInfo.cs" />
+    <Compile Include="PS3GameResigner\PS3Support\Crc32.cs" />
+    <Compile Include="Save_Manager\events\SaveSelectedEventArgs.cs" />
+    <Compile Include="Save_Manager\model\PCWorldFolder.cs" />
+    <Compile Include="Save_Manager\model\PEFolderType.cs" />
+    <Compile Include="Save_Manager\model\PEWorldFolder.cs" />
+    <Compile Include="Save_Manager\model\PS3GameFile.cs" />
+    <Compile Include="Save_Manager\model\WiiUGameFile.cs" />
+    <Compile Include="Save_Manager\model\XboxPackageData.cs" />
+    <Compile Include="Save_Manager\SaveManager.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Save_Manager\SaveManager.Designer.cs">
+      <DependentUpon>SaveManager.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Save_Manager\workers\PCFileWorker.cs" />
+    <Compile Include="Save_Manager\workers\PEFileWorker.cs" />
+    <Compile Include="Save_Manager\workers\PS3FileWorker.cs" />
+    <Compile Include="Save_Manager\workers\WiiUFileWorker.cs" />
+    <Compile Include="Struct5.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Full_UMT_Convertor\Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
