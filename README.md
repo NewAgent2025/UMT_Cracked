@@ -130,11 +130,15 @@ From the application’s perspective, everything appears **fully legitimate and 
 | BEDROCK → JAVA           |BEDROCK PE To PC Java| ✔️             |
 
 ### ⚠️TAKE NOTE:
-> Mob spawners are removed during conversion to prevent save failures and potential world crashes.
+> The mobs in mob spawners are removed during conversion to prevent save failures and potential world crashes.
 > 
-> Converting from Java/Bedrock to console may currently result in the loss of mobs, blocks, items, and other data. This is a known limitation and will be addressed in a future update.
-> 
+> Converting Console worlds to Java/Bedrock works without any issues. **Fixed: June 23 2026 1:42 PM**
+>
+> Converting Java/Bedrock worlds to Console may currently result in the loss of some items, blocks, and mobs. This is a known limitation and will be addressed in a future update—hopefully soon.This occurs because the converter can successfully read newer chunks (such as TU75) but cannot yet write them back correctly, while it works properly for TU68 chunks.
+>
 >In comparison, the official UMT software removes mobs and some items during both console to console and Java to console conversions, while my version preserves this data for console to console worlds.
+>
+> For Java/Bedrock conversions and when downgrading to older versions, I am using Chunker. It is faster and easier to work with, so please keep this in mind.
 
 <details><summary>Click Here To See What UMT Changes/Removes</summary>
 
